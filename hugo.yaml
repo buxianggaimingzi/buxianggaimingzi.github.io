@@ -14,8 +14,8 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: YIFEI'Log
+  description: "YIFEI's log"
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
   # author: ["Me", "You"] # multiple authors
@@ -57,7 +57,7 @@ params:
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: ExampleSite
+    title: YIFEI'Log
     subtitle: "This is subtitle"
     imageUrl: "<img location>"
     imageWidth: 120
@@ -71,8 +71,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "\U0001F44B Welcome to YIFEI'Log"
+    Content: Hi，这里是YIFEI'Log，主攻计算机视觉，从事基础图像质量算法以及视觉大模型的研究。这里是记录我的学习日记、一些论文阅读笔记，以及一些技术方案思考等。
 
   socialIcons:
     - name: email

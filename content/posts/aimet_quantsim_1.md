@@ -95,3 +95,5 @@ class QuantizationSimModel:
         self._supported_kernels = quantsim_configurator.get_supported_kernels()
         self._validate_supported_kernels_for_quantizers(SUPPORTED_KERNELS_ACTION)
 ```
+
+QuantSim对象初始化第一步，ConnectedGraph构建模型计算图，
