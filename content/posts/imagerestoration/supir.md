@@ -1,5 +1,5 @@
 +++
-title = 'Supir'
+title = 'image-restoration-SUPIR'
 date = 2024-04-28T22:24:02+08:00
 draft = false
 +++

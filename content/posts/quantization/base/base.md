@@ -1,5 +1,5 @@
 +++
-title = 'Base'
+title = 'quantization-base'
 date = 2024-04-28T22:15:05+08:00
 draft = false
 +++

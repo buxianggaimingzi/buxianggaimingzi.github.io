@@ -1,5 +1,5 @@
 +++
-title = 'Aimet'
+title = 'quantization-framework-aimet'
 date = 2024-04-28T22:15:37+08:00
 draft = false
 +++
