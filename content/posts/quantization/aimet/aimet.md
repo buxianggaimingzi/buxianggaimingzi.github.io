@@ -1,9 +1,10 @@
 +++
-title = "AIMET QUANTSIM [1]"
-date = 2024-04-27T21:03:41+08:00
+title = 'Aimet'
+date = 2024-04-28T22:15:37+08:00
 draft = false
 +++
 
+这篇blog开坑解析aimet量化流程，以及aimet内部源码的解析
 
 # 量化基础
 
