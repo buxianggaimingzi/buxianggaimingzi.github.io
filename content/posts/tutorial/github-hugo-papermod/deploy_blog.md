@@ -6,7 +6,7 @@ draft = false
 
 搭建个人博客有多种方式，可以自己申请域名搭服务器建站，但如果只是简单记录一些论文笔记以及技术分享，github静态页面托管的方式搭建博客可能是更为经济的方式，因为github完全免费~ github也有多种搭建博客的框架可选，如jkelly、hexo等。本篇博客借鉴[Lil'Log](https://lilianweng.github.io/)的个人博客风格，使用Hugo搭建博客，并使用PaperMod主题，使用Github Actions进行博客的编译、发布。
 
-参考：https://www.elegantcrazy.com/posts/blog/build-blog-with-github-pages-hugo-and-papermod/
+参考：[使用Github Pages+Hugo+PaperMod搭建博客](https://www.elegantcrazy.com/posts/blog/build-blog-with-github-pages-hugo-and-papermod/)
 # 环境搭建
 - [Hugo](https://gohugo.io/installation/windows/)
 - [Git](https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git)
@@ -283,11 +283,11 @@ menu:
 # 部署网站
 部署使用Github Pages+Github Actions
 首先在github创建仓库，这里仓库名必须用固定格式```[用户名].github.io```，否则Github Pages无法正常工作。创建选项如下：
-![create github pages repository](./images/create_github_pages.jpeg)
+![create github pages repository](https://github.com/buxianggaimingzi/buxianggaimingzi.github.io/blob/714d72a0e82f836398f636d1f9698b7d243d1a09/content/posts/tutorial/github-hugo-papermod/images/create_github_pages.jpeg)
 > 我这里已经创建过repo，所以会报错，正常未创建过的用户不会有这个报错
 ## 配置Github Pages
 在创建好的github仓库的Settings页面中，修改Build and deployment配置，默认为Deploy from a branch，修改为Github Actions：
-![github pages config](./images/config_github_pages.jpeg)
+![github pages config](https://github.com/buxianggaimingzi/buxianggaimingzi.github.io/blob/714d72a0e82f836398f636d1f9698b7d243d1a09/content/posts/tutorial/github-hugo-papermod/images/config_github_pages.jpeg)
 ## 本地推送
 要将本地的文章推送到github远程仓库中，需要执行以下指令，与远程仓库关联：
 ```
@@ -385,7 +385,7 @@ git commit -m "init blog proj"
 git push --set-upstream origin main
 ```
 将所有修改提交到github远程仓库后，Github Actions会自动启动编译部署。github项目Actions页面下会有进展信息：
-![github actions page](./images/workflows.jpeg)
+![github actions page](https://github.com/buxianggaimingzi/buxianggaimingzi.github.io/blob/714d72a0e82f836398f636d1f9698b7d243d1a09/content/posts/tutorial/github-hugo-papermod/images/workflows.jpeg)
 如果workflow成功执行完成，状态标识会变成绿色，如果失败，会变成红色，可以点击workflow上显示的commit信息，可以看到当次编译的详细信息，包括执行失败的错误栈。  
 如果执行成功，可以在浏览器地址栏输入[用户名].github.io就可以看到新建的页面。  
 
